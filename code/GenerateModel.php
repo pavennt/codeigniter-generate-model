@@ -30,10 +30,10 @@
         //var_dump( $table_private);die();
         $ftable = fopen('generate/'.strtolower($tb_name) . "_model.php", "w");
         $str = "<?php\n";
-        $str .= "class " . ucfirst($tb_name) . "_model extends Model\n{\n\n\t";
+        $str .= "class " . ucfirst($tb_name) . "_model extends CI_Model\n{\n\n\t";
         $str .= "private ".$table_private." = '".$tb_name."';\n\t\t";
         $str .= "function " . ucfirst($tb_name) . "_model()\n\t{\n\t\t";
-        $str .= "parent::Model();\n\t\t\$this->load->database();\n\t}\n\n\t";
+        $str .= "parent::__construct();\n\t\t\$this->load->database();\n\t}\n\n\t";
         fwrite($ftable, $str);
 
         $str_create = "function create(\$data)\n\t{\n\t\t";
