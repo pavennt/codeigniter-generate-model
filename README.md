@@ -4,7 +4,7 @@ codeigniter-generate-model
 Script simple generate model for Codeigniter from database
 
 
-1 - Dowload 
+1 - Download 
 
 2 - Config /code/GenerateModel.php
 
