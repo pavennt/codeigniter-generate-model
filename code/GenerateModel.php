@@ -1,15 +1,17 @@
 <?php
-    /**
-     *  @author : Nguyen Tien Pa Ven
-     *  Create date : 31-07-2013
-     *  
-     *  Script simple generate model in Codeigniter from database
-     */
-	$host = "localhost";
-	$port = 3306;
-	$user = "root";
-	$pass = "root";
-    $db_name = "ci_dev";
+/**
+ *  @author : Nguyen Tien Pa Ven
+ *  Create date : 31-07-2013
+ *  Skype : pavennt
+ *  Email : pavennt@gmail.com
+ *  Create date : 31/07/2013
+ *  Description : Script simple generate model in Codeigniter from database
+ */
+	$host = "localhost"; // host name
+	$port = 3306; // port mysql 
+	$user = "root"; // user name mysql
+	$pass = "root"; // password mysql
+    $db_name = "ci_dev"; // database 
 
     $conn = mysql_connect($host, $user, $pass);
     mysql_select_db($db_name);
