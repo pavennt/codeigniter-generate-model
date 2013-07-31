@@ -79,6 +79,6 @@
         fwrite($ftable, "}");
 
         fclose($ftable);
-        echo "Generate Model Successfull : ".$ftable;
+        echo "Generate Model Successfull : ".$ftable."<br/>";
     }
 ?>
