@@ -7,10 +7,11 @@
  *  Create date : 31/07/2013
  *  Description : Script simple generate model in Codeigniter from database
  */
-	$host = "localhost"; // host name
-	$port = 3306; // port mysql 
-	$user = "root"; // user name mysql
-	$pass = "root"; // password mysql
+    // config data base 
+    $host = "localhost"; // host name
+    $port = 3306; // port mysql 
+    $user = "root"; // user name mysql
+    $pass = "root"; // password mysql
     $db_name = "ci_dev"; // database 
 
     $conn = mysql_connect($host, $user, $pass);
