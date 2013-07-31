@@ -31,7 +31,7 @@
         $ftable = fopen('generate/'.strtolower($tb_name) . "_model.php", "w");
         $str = "<?php\n";
         $str .= "class " . ucfirst($tb_name) . "_model extends Model\n{\n\n\t";
-        $str .= "private ".$table_private." = '".$tb_name."'\n\t";
+        $str .= "private ".$table_private." = '".$tb_name."';\n\t";
         $str .= "function " . ucfirst($tb_name) . "_model()\n\t{\n\t\t";
         $str .= "parent::Model();\n\t\t\$this->load->database();\n\t}\n\n\t";
         fwrite($ftable, $str);
