@@ -5,6 +5,7 @@
  *  Skype : pavennt
  *  Email : pavennt@gmail.com
  *  Create date : 31/07/2013
+ *  License : GNU GENERAL PUBLIC LICENSE
  *  Description : Script simple generate model in Codeigniter from database
  */
     // config data base 
